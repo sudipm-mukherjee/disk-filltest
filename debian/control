@@ -1,0 +1,27 @@
+Source: disk-filltest
+Section: utils
+Priority: optional
+Maintainer: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://panthema.net/2013/disk-filltest/
+Vcs-Browser: https://github.com/sudipm-mukherjee/disk-filltest
+Vcs-Git: https://github.com/sudipm-mukherjee/disk-filltest.git
+
+Package: disk-filltest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple Tool to Detect Bad Disks by Filling with Random Data
+ The number of hard disk produced in the last five years is huge. Of course,
+ this is the same number of hard disks that will most probably fail in the next
+ five years, possibly with catastrophic consequences for the particular user or
+ business.
+ .
+ The simple tool disk-filltest can help, together with S.M.A.R.T. monitoring, to
+ check disks periodically and thus be forewarned about coming failures. The
+ function of disk-filltest is simple:
+  * Write files random-######## to the current directory until the disk is full.
+  * Read the files again and verify the pseudo-random sequence written.
+  * Any write or read error will be reported, either by the operating system or
+    by checking the pseudo-random sequence.
+  * Optionally, delete the random files after a successful run.
