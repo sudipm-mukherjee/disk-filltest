@@ -1,3 +1,10 @@
+disk-filltest (0.8.1-2) unstable; urgency=medium
+
+  * Update Standards-Version to 4.5.0
+  * Add debian/watch file.
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Sat, 11 Apr 2020 19:24:26 +0100
+
 disk-filltest (0.8.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #949307)
