@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
 Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Homepage: https://panthema.net/2013/disk-filltest/
 Vcs-Browser: https://github.com/sudipm-mukherjee/disk-filltest
 Vcs-Git: https://github.com/sudipm-mukherjee/disk-filltest.git
