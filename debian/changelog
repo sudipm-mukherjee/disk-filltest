@@ -1,3 +1,11 @@
+disk-filltest (0.8.1-3) unstable; urgency=medium
+
+  * Update compat level to 13.
+  * Add autopkgtest.
+  * Add Rules-Requires-Root: no.
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Tue, 12 May 2020 18:50:30 +0100
+
 disk-filltest (0.8.1-2) unstable; urgency=medium
 
   * Update Standards-Version to 4.5.0
