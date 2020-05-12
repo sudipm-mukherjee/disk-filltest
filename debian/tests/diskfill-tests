@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -efu
+
+if [ -z "$AUTOPKGTEST_TMP" ]; then
+    AUTOPKGTEST_TMP=tmp
+    mkdir -p ${AUTOPKGTEST_TMP}
+fi
+
+cd ${AUTOPKGTEST_TMP}
+disk-filltest -f 1 -S 2 -u
