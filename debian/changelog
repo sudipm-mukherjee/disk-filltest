@@ -1,3 +1,10 @@
+disk-filltest (0.8.1-4) UNRELEASED; urgency=low
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Mon, 08 Jun 2020 23:56:27 -0000
+
 disk-filltest (0.8.1-3) unstable; urgency=medium
 
   * Update compat level to 13.
