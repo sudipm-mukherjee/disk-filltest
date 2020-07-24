@@ -1,9 +1,13 @@
-disk-filltest (0.8.1-4) UNRELEASED; urgency=low
+disk-filltest (0.8.2-1) unstable; urgency=low
 
+  [ Debian Janitor ]
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
 
- -- Debian Janitor <janitor@jelmer.uk>  Mon, 08 Jun 2020 23:56:27 -0000
+  [ Sudip Mukherjee ]
+  * Update from upstream v0.8.2
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Fri, 24 Jul 2020 17:54:58 +0100
 
 disk-filltest (0.8.1-3) unstable; urgency=medium
 
